@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import ojygame from "./ojygame.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>안녕 승태 조금 수정했어</h2>
+        <img src={ojygame} className="title" alt="title" />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>오징어게임에 과몰입한 오징어가 낳은 괴물</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/ohjiyeon3275/how-are-you"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github repogitory
         </a>
-        
       </header>
     </div>
   );
